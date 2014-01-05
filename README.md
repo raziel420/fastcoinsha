@@ -10,3 +10,5 @@ Significant fixes and recoding done by Phark
 Final compilation and checks done by Shakezula
 
 Images created by Griff
+
+Thanks to Ahmedbodi for opening up the first pool alongside the launch

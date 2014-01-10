@@ -30,7 +30,7 @@ public:
         nDefaultPort = 65505;
         nRPCPort = 65504;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
-        nSubsidyHalvingInterval = 1209600;
+        nSubsidyHalvingInterval = 40320;
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
@@ -66,7 +66,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000f164a6ba5027216402d8949af9de59c21732c85314ffc7120c54893d854"));
         assert(genesis.hashMerkleRoot == uint256("0xc25df6dc24c0ff630b2d12847c749406e1858025bb201a49cb9cd0582c5b76e9 "));
 
-        vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
+        vSeeds.push_back(CDNSSeedData("23.94.26.74", "127.0.0.1"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = 36;
